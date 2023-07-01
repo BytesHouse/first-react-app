@@ -3,7 +3,7 @@ import HeadingOne from "./components/HeadingOne/HeadingOne";
 function App() {
   return (
     <div className="box">
-      <HeadingOne />
+      <div>Test Git</div>
       <HeadingOne />
       <HeadingOne />
       <HeadingOne />
