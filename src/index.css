@@ -16,17 +16,3 @@ code {
   max-width: 1180px;
   margin: 0 auto;
 }
-.header {
-  border-bottom: 1px solid lightgray;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.header img {
-  width: 45px;
-}
-.nav-list {
-  display: flex;
-  list-style: none;
-  gap: 10px;
-}

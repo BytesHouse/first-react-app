@@ -1,3 +1,4 @@
+import styles from "./Navigation.module.css";
 const listItems = [
   "Home",
   "About us",
@@ -18,7 +19,7 @@ const listItemsObjects = [
 function Navigation() {
   return (
     <nav className="navigation">
-      <ul className="nav-list">
+      <ul className={styles.navList}>
         {listItemsObjects.map((item) => (
           <li key={item}>
             <a href={item.link}>{item.text}</a>
